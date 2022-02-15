@@ -4,6 +4,15 @@
 [![Coveralls](https://coveralls.io/repos/iziz/libPhoneNumber-iOS/badge.svg?branch=master&service=github)](https://coveralls.io/github/iziz/libPhoneNumber-iOS?branch=master)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
+# How to update metadata
+```
+$ swift scripts/metadataGenerator.swift
+Javascript exception thrown: ReferenceError: Can't find variable: window
+Done
+$ cd libPhonenumber
+$ ./GeneratePhoneNumberHeader.sh
+```
+
 # **libPhoneNumber for iOS**
 
  - NBPhoneNumberUtil
